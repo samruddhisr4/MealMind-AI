@@ -9,7 +9,7 @@ const nutritionData = [
     protein: 0.5,
     fiber: 4.5,
     carbs: 25,
-    fats: 0.3
+    fats: 0.3,
   },
   {
     name: "banana",
@@ -18,7 +18,7 @@ const nutritionData = [
     protein: 1.3,
     fiber: 3.1,
     carbs: 27,
-    fats: 0.4
+    fats: 0.4,
   },
   {
     name: "orange",
@@ -27,7 +27,7 @@ const nutritionData = [
     protein: 1.2,
     fiber: 3.1,
     carbs: 15.4,
-    fats: 0.2
+    fats: 0.2,
   },
   {
     name: "broccoli",
@@ -36,7 +36,7 @@ const nutritionData = [
     protein: 2.5,
     fiber: 2.4,
     carbs: 6,
-    fats: 0.3
+    fats: 0.3,
   },
   {
     name: "chicken breast",
@@ -45,7 +45,7 @@ const nutritionData = [
     protein: 31,
     fiber: 0,
     carbs: 0,
-    fats: 3.6
+    fats: 3.6,
   },
   {
     name: "salmon",
@@ -54,7 +54,7 @@ const nutritionData = [
     protein: 22,
     fiber: 0,
     carbs: 0,
-    fats: 13
+    fats: 13,
   },
   {
     name: "rice",
@@ -63,7 +63,7 @@ const nutritionData = [
     protein: 4.3,
     fiber: 0.6,
     carbs: 45,
-    fats: 0.4
+    fats: 0.4,
   },
   {
     name: "pasta",
@@ -72,7 +72,7 @@ const nutritionData = [
     protein: 8.1,
     fiber: 2.5,
     carbs: 43,
-    fats: 1.3
+    fats: 1.3,
   },
   {
     name: "bread",
@@ -81,7 +81,7 @@ const nutritionData = [
     protein: 2.7,
     fiber: 0.8,
     carbs: 14,
-    fats: 1.1
+    fats: 1.1,
   },
   {
     name: "egg",
@@ -90,7 +90,7 @@ const nutritionData = [
     protein: 6,
     fiber: 0,
     carbs: 0.4,
-    fats: 5
+    fats: 5,
   },
   {
     name: "milk",
@@ -99,7 +99,7 @@ const nutritionData = [
     protein: 8,
     fiber: 0,
     carbs: 12,
-    fats: 8
+    fats: 8,
   },
   {
     name: "yogurt",
@@ -108,7 +108,7 @@ const nutritionData = [
     protein: 12,
     fiber: 0,
     carbs: 17,
-    fats: 8
+    fats: 8,
   },
   {
     name: "cheese",
@@ -117,7 +117,7 @@ const nutritionData = [
     protein: 7,
     fiber: 0,
     carbs: 1,
-    fats: 9
+    fats: 9,
   },
   {
     name: "beef",
@@ -126,7 +126,7 @@ const nutritionData = [
     protein: 26,
     fiber: 0,
     carbs: 0,
-    fats: 15
+    fats: 15,
   },
   {
     name: "potato",
@@ -135,7 +135,7 @@ const nutritionData = [
     protein: 4.3,
     fiber: 3.8,
     carbs: 37,
-    fats: 0.2
+    fats: 0.2,
   },
   {
     name: "sweet potato",
@@ -144,7 +144,7 @@ const nutritionData = [
     protein: 2,
     fiber: 3.8,
     carbs: 26,
-    fats: 0.1
+    fats: 0.1,
   },
   {
     name: "spinach",
@@ -153,7 +153,7 @@ const nutritionData = [
     protein: 0.9,
     fiber: 0.7,
     carbs: 1.1,
-    fats: 0.1
+    fats: 0.1,
   },
   {
     name: "carrot",
@@ -162,7 +162,7 @@ const nutritionData = [
     protein: 0.6,
     fiber: 1.7,
     carbs: 6,
-    fats: 0.1
+    fats: 0.1,
   },
   {
     name: "avocado",
@@ -171,7 +171,7 @@ const nutritionData = [
     protein: 3,
     fiber: 10,
     carbs: 12,
-    fats: 21
+    fats: 21,
   },
   {
     name: "almonds",
@@ -180,7 +180,7 @@ const nutritionData = [
     protein: 6,
     fiber: 3.5,
     carbs: 6,
-    fats: 14
+    fats: 14,
   },
   {
     name: "oats",
@@ -189,7 +189,7 @@ const nutritionData = [
     protein: 5.9,
     fiber: 4,
     carbs: 24,
-    fats: 2.6
+    fats: 2.6,
   },
   {
     name: "quinoa",
@@ -198,7 +198,7 @@ const nutritionData = [
     protein: 8.1,
     fiber: 5.2,
     carbs: 39,
-    fats: 3.6
+    fats: 3.6,
   },
   {
     name: "lentils",
@@ -207,7 +207,7 @@ const nutritionData = [
     protein: 18,
     fiber: 15.6,
     carbs: 40,
-    fats: 0.8
+    fats: 0.8,
   },
   {
     name: "black beans",
@@ -216,7 +216,7 @@ const nutritionData = [
     protein: 15,
     fiber: 15,
     carbs: 41,
-    fats: 0.9
+    fats: 0.9,
   },
   {
     name: "tofu",
@@ -225,8 +225,8 @@ const nutritionData = [
     protein: 8,
     fiber: 0.6,
     carbs: 1.9,
-    fats: 4.8
-  }
+    fats: 4.8,
+  },
 ];
 
 module.exports = nutritionData;
