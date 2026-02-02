@@ -130,14 +130,24 @@ const DishAnalyzer = () => {
                   <div key={index} className="ingredient-breakdown-item">
                     <div className="ingredient-header">
                       <strong>{item.name}</strong>
-                      <span className="ingredient-quantity">({item.quantity})</span>
+                      <span className="ingredient-quantity">
+                        ({item.quantity})
+                      </span>
                     </div>
                     <div className="ingredient-details">
-                      <span className="detail-item">🔥 {item.calories} cal</span>
-                      <span className="detail-item">💪 {item.protein}g protein</span>
-                      <span className="detail-item">🌾 {item.carbs}g carbs</span>
+                      <span className="detail-item">
+                        🔥 {item.calories} cal
+                      </span>
+                      <span className="detail-item">
+                        💪 {item.protein}g protein
+                      </span>
+                      <span className="detail-item">
+                        🌾 {item.carbs}g carbs
+                      </span>
                       <span className="detail-item">🧈 {item.fats}g fats</span>
-                      <span className="detail-item">🥬 {item.fiber}g fiber</span>
+                      <span className="detail-item">
+                        🥬 {item.fiber}g fiber
+                      </span>
                     </div>
                   </div>
                 ))}

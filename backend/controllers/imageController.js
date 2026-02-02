@@ -80,7 +80,10 @@ const analyzeImage = async (req, res) => {
 
     // Extract JSON object from response text
     const responseText = response.choices[0].message.content.trim();
-    console.log("OpenAI response text:", responseText.substring(0, 300) + "...");
+    console.log(
+      "OpenAI response text:",
+      responseText.substring(0, 300) + "...",
+    );
 
     // Attempt to find the first JSON object in the response
     const jsonStart = responseText.indexOf("{");

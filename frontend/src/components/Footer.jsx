@@ -54,8 +54,9 @@ const Footer = () => {
           <div className="footer-section">
             <h4>About</h4>
             <p>
-              MealMind AI combines cutting-edge computer vision and AI technology
-              to help you achieve your health and nutrition goals with ease.
+              MealMind AI combines cutting-edge computer vision and AI
+              technology to help you achieve your health and nutrition goals
+              with ease.
             </p>
           </div>
         </div>

@@ -236,7 +236,7 @@ const MealPlanner = () => {
         {results && (
           <div className="results-section">
             <h3 className="results-title">🍽️ Your Personalized Meal Plan</h3>
-            
+
             <div className="plan-info-grid">
               <div className="plan-info-card">
                 <span className="info-label">Daily Calorie Target</span>
@@ -305,19 +305,27 @@ const MealPlanner = () => {
                   <div className="meal-nutrition">
                     <div className="nutrition-item">
                       <span className="icon">🔥</span>
-                      <span><strong>Calories:</strong> {meal.calories}</span>
+                      <span>
+                        <strong>Calories:</strong> {meal.calories}
+                      </span>
                     </div>
                     <div className="nutrition-item">
                       <span className="icon">💪</span>
-                      <span><strong>Protein:</strong> {meal.protein}g</span>
+                      <span>
+                        <strong>Protein:</strong> {meal.protein}g
+                      </span>
                     </div>
                     <div className="nutrition-item">
                       <span className="icon">🌾</span>
-                      <span><strong>Carbs:</strong> {meal.carbs}g</span>
+                      <span>
+                        <strong>Carbs:</strong> {meal.carbs}g
+                      </span>
                     </div>
                     <div className="nutrition-item">
                       <span className="icon">🧈</span>
-                      <span><strong>Fats:</strong> {meal.fats}g</span>
+                      <span>
+                        <strong>Fats:</strong> {meal.fats}g
+                      </span>
                     </div>
                   </div>
                 </div>

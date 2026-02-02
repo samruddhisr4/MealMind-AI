@@ -126,8 +126,8 @@ const ImageAnalyzer = () => {
         <h2>🍽️ Visual Recipe Generator</h2>
         <p>
           Upload one or two food images and optionally provide a prompt. The AI
-          will detect ingredients from the image(s) and suggest up to 3
-          recipes tailored to your prompt and constraints.
+          will detect ingredients from the image(s) and suggest up to 3 recipes
+          tailored to your prompt and constraints.
         </p>
 
         <form onSubmit={handleSubmit} className="image-upload-form">
@@ -144,8 +144,9 @@ const ImageAnalyzer = () => {
               rows={3}
             />
             <small className="prompt-hint">
-              💡 Tip: Specify dietary needs, cuisine, servings, or any ingredient
-              to avoid. This helps the AI suggest recipes that fit your goals.
+              💡 Tip: Specify dietary needs, cuisine, servings, or any
+              ingredient to avoid. This helps the AI suggest recipes that fit
+              your goals.
             </small>
           </div>
 
