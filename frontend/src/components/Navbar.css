@@ -1,23 +1,30 @@
 .navbar {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 1rem 0;
-  margin-bottom: 30px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  background: #283618;
+  box-shadow: 0 4px 12px rgba(40, 54, 24, 0.15);
+  padding: 0;
+  margin-bottom: 20px;
+  height: 100px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
+.navbar .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 3rem;
+}
+
 .navbar-brand h1 {
-  color: #007bff;
+  color: #fefae0;
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .navbar-nav {
@@ -25,19 +32,34 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: flex-end;
+  gap: 2.5rem;
+  flex: 1;
 }
 
 .nav-item {
-  margin-left: 2rem;
+  margin: 0;
 }
 
 .nav-link {
   text-decoration: none;
-  color: #333;
+  color: #fefae0;
   font-weight: 500;
-  transition: color 0.3s ease;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
 }
 
 .nav-link:hover {
-  color: #007bff;
+  color: #dda15e;
+  background-color: rgba(221, 161, 94, 0.1);
+}
+.navbar-brand {
+  text-decoration: none !important;
+}
+.calligraphy-text {
+  font-family: "Blackadder ITC", cursive;
+  font-weight: 3000;
+  letter-spacing: 2px;
 }

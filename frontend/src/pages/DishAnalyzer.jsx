@@ -54,7 +54,7 @@ const DishAnalyzer = () => {
   return (
     <div className="container">
       <div className="card">
-        <h2>Dish Nutrition Analyzer</h2>
+        <h2>🔍 Dish Nutrition Analyzer</h2>
         <p>Enter a dish description to analyze its nutritional content</p>
 
         <form onSubmit={handleSubmit}>

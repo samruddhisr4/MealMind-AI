@@ -86,7 +86,7 @@ const MealPlanner = () => {
   return (
     <div className="container">
       <div className="card">
-        <h2>Personalized Meal Planner</h2>
+        <h2>📋 Personalized Meal Planner</h2>
         <p>
           Fill in your details to get a customized meal plan based on your goals
         </p>

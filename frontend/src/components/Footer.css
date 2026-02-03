@@ -1,9 +1,9 @@
 .footer {
-  background: linear-gradient(135deg, var(--text-primary) 0%, #1a2633 100%);
-  color: #ecf0f1;
+  background: #283618;
+  color: #fefae0;
   margin-top: 4rem;
   padding: 3rem 0 1rem;
-  border-top: 4px solid var(--primary-color);
+  border-top: 3px solid #dda15e;
 }
 
 .footer-content {
@@ -15,20 +15,23 @@
 
 .footer-section h3 {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: #dda15e;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .footer-section h4 {
   font-size: 1.1rem;
-  color: var(--primary-light);
+  color: #dda15e;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .footer-section p {
   font-size: 0.95rem;
-  line-height: 1.6;
-  color: #bdc3c7;
+  line-height: 1.7;
+  color: #fefae0;
+  opacity: 0.95;
 }
 
 .footer-section ul {
@@ -41,28 +44,28 @@
 }
 
 .footer-section a {
-  color: #bdc3c7;
+  color: #fefae0;
   text-decoration: none;
   transition: all 0.3s ease;
   display: inline-block;
 }
 
 .footer-section a:hover {
-  color: var(--primary-light);
-  transform: translateX(5px);
-  text-decoration: underline;
+  color: #dda15e;
+  transform: translateX(4px);
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(221, 161, 94, 0.3);
   padding-top: 1.5rem;
   text-align: center;
 }
 
 .footer-bottom p {
   font-size: 0.9rem;
-  color: #95a5a6;
+  color: #fefae0;
   margin: 0.5rem 0;
+  opacity: 0.9;
 }
 
 @media (max-width: 768px) {

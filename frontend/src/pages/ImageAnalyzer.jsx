@@ -216,28 +216,54 @@ const ImageAnalyzer = () => {
 
         {suggestedRecipes && suggestedRecipes.length > 0 && (
           <div className="recipes-section">
-            <h3>🍳 Recipe Suggestions</h3>
-            {suggestedRecipes.map((recipe, idx) => (
-              <div key={idx} className="recipe-card">
-                <h4>{recipe.title}</h4>
-                {recipe.ingredients && recipe.ingredients.length > 0 && (
-                  <div>
-                    <strong>Ingredients:</strong>
-                    <ul>
-                      {recipe.ingredients.map((ing, i) => (
-                        <li key={i}>{ing}</li>
-                      ))}
-                    </ul>
+            <div className="recipes-header">
+              <h3>🍳 AI-Generated Recipes</h3>
+              <p className="recipes-subtitle">
+                Based on detected ingredients and your preferences
+              </p>
+            </div>
+            <div className="recipes-grid">
+              {suggestedRecipes.map((recipe, idx) => (
+                <div key={idx} className="recipe-card-enhanced">
+                  <div className="recipe-card-header">
+                    <h4 className="recipe-title">
+                      <span className="recipe-number">{idx + 1}</span>
+                      {recipe.title}
+                    </h4>
                   </div>
-                )}
-                {recipe.instructions && (
-                  <details>
-                    <summary>Instructions</summary>
-                    <p>{recipe.instructions}</p>
-                  </details>
-                )}
-              </div>
-            ))}
+
+                  {recipe.ingredients && recipe.ingredients.length > 0 && (
+                    <div className="recipe-ingredients">
+                      <h5 className="section-title">📝 Ingredients</h5>
+                      <div className="ingredients-list">
+                        {recipe.ingredients.map((ing, i) => (
+                          <div key={i} className="ingredient-item">
+                            <span className="ingredient-bullet">•</span>
+                            <span className="ingredient-text">{ing}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {recipe.instructions && (
+                    <div className="recipe-instructions">
+                      <details className="instructions-details">
+                        <summary className="instructions-summary">
+                          <span className="summary-text">
+                            👨‍🍳 View Instructions
+                          </span>
+                          <span className="summary-icon">▼</span>
+                        </summary>
+                        <div className="instructions-content">
+                          <p>{recipe.instructions}</p>
+                        </div>
+                      </details>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
         )}
 

@@ -63,7 +63,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>&copy; 2026 MealMind AI. All rights reserved.</p>
-          <p>Powered by Advanced AI & Machine Learning</p>
+          
         </div>
       </div>
     </footer>

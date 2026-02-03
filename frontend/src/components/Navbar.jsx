@@ -7,8 +7,13 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <Link to="/" className="navbar-brand">
-          <h1>MealMind AI</h1>
+          <h1>
+            <span className="calligraphy-text"> MealMind </span>
+            {""}
+            AI
+          </h1>
         </Link>
+{/* <div className="navbar-links"> */}
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link to="/" className="nav-link">
@@ -31,6 +36,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+{/* </div> */}
       </div>
     </nav>
   );

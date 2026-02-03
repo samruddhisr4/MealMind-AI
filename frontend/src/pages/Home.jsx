@@ -1,17 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./Home.css";
 const Home = () => {
   return (
     <div className="container">
       <div className="card hero-section">
-        <h1>🥗 Welcome to MealMind AI</h1>
+        <h1>
+          🥗 Welcome to <span className="calligraphy-text">MealMind</span> AI
+        </h1>
         <p className="subtitle">
           Your intelligent AI-powered nutrition and meal planning assistant
         </p>
 
         <div className="project-intro">
-          <h2>About MealMind AI</h2>
+          <h2>About <span className="calligraphy-text">MealMind</span> AI</h2>
           <p>
             MealMind AI is a comprehensive nutrition platform powered by
             advanced artificial intelligence. It combines visual food
@@ -28,26 +30,26 @@ const Home = () => {
           </p>
 
           <div className="key-benefits">
-            <h3>Why Choose MealMind AI?</h3>
+            <h3>Why Choose <span className="calligraphy-text">MealMind</span> AI?</h3>
             <ul>
               <li>
-                ✅ <strong>AI-Powered Analysis:</strong> Advanced computer
+                 <strong>AI-Powered Analysis:</strong> Advanced computer
                 vision and natural language processing
               </li>
               <li>
-                ✅ <strong>Accurate Nutritional Data:</strong> Detailed
+                 <strong>Accurate Nutritional Data:</strong> Detailed
                 breakdown of calories, macros, and micronutrients
               </li>
               <li>
-                ✅ <strong>Smart Recipe Generator:</strong> Get personalized
+                 <strong>Smart Recipe Generator:</strong> Get personalized
                 recipe suggestions from food images
               </li>
               <li>
-                ✅ <strong>Personalized Meal Plans:</strong> Custom plans based
+                 <strong>Personalized Meal Plans:</strong> Custom plans based
                 on your health goals and preferences
               </li>
               <li>
-                ✅ <strong>Easy to Use:</strong> Simple, intuitive interface for
+                 <strong>Easy to Use:</strong> Simple, intuitive interface for
                 all users
               </li>
             </ul>
