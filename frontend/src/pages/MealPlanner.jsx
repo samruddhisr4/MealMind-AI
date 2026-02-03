@@ -258,7 +258,7 @@ const MealPlanner = () => {
             </div>
 
             <div className="nutrition-summary">
-              <h4>📊 Daily Nutrition Summary</h4>
+              <h4>📊 Weekly Nutrition Summary</h4>
               <div className="nutrition-grid">
                 <div className="nutrition-card">
                   <div className="nutrition-value">

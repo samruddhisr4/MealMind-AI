@@ -433,6 +433,7 @@ body {
   background: white;
   padding: 2rem;
   border-radius: 10px;
+  color:#283618;
   border-left: 5px solid var(--primary-color);
 }
 
