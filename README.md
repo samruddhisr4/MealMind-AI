@@ -1,10 +1,6 @@
 # MealMind AI
 
-A full-stack AI-powered nutrition and meal-planning web application.
-
-## Functionalities
-
-MealMind AI is built as a practical, recruiter-friendly showcase of modern full-stack development and applied AI. Key functionalities include:
+MealMind AI is a full-stack AI-powered nutrition and meal-planning web application built as a practical, recruiter-friendly showcase of modern full-stack development and applied AI. Key functionalities include:
 
 - Visual Recipe Generator: Upload food images and (optionally) provide a short prompt; the AI detects likely ingredients and returns curated recipe suggestions tailored to dietary preferences and serving size.
 - Dish Nutrition Analysis: Enter dish names or descriptions to receive a detailed nutritional breakdown (calories, macros, and key micronutrients) with clear visuals.
@@ -27,15 +23,17 @@ These features demonstrate practical skills in API integration, image handling, 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0cbf0a42-d544-4cf9-a9d2-76bd7b8cdb72" />
 
 
+## Live Demo
+
+The frontend is deployed on Vercel: https://meal-mind-ai-plum.vercel.app/
+
 ## Deployment
 
 - Frontend: Deploy to Vercel
 - Backend: Deploy to Render
 - Make sure to set environment variables in your deployment platforms
 
-## Live Demo
 
-The frontend is deployed on Vercel: https://meal-mind-ai-plum.vercel.app/
 
 ## API Endpoints
 
