@@ -15,6 +15,18 @@ MealMind AI is built as a practical, recruiter-friendly showcase of modern full-
 
 These features demonstrate practical skills in API integration, image handling, UX design, and deploying a production-ready web application.
 
+## Frontend and Implementation
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a39ff5be-0d4a-4b86-8f2a-7dd78b4c5776" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dd8aa7f0-7363-4b46-971b-47ae694a0b85" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/84b60470-41c7-41c2-8266-9e2fe8579cc4" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cbfd4756-fdc6-490b-ac75-568852ee6e5e" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0cbf0a42-d544-4cf9-a9d2-76bd7b8cdb72" />
+
+
 ## Deployment
 
 - Frontend: Deploy to Vercel
