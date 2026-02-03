@@ -10,7 +10,7 @@ MealMind AI is a full-stack AI-powered nutrition and meal-planning web applicati
 - Secure Configuration: Sensitive keys (OpenAI API key) are loaded via environment variables and never committed to the repository.
 
 These features demonstrate practical skills in API integration, image handling, UX design, and deploying a production-ready web application.
-
+The frontend is deployed on Vercel: https://meal-mind-ai-plum.vercel.app/
 ## Frontend and Implementation
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a39ff5be-0d4a-4b86-8f2a-7dd78b4c5776" />
 
@@ -23,9 +23,6 @@ These features demonstrate practical skills in API integration, image handling, 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0cbf0a42-d544-4cf9-a9d2-76bd7b8cdb72" />
 
 
-## Live Demo
-
-The frontend is deployed on Vercel: https://meal-mind-ai-plum.vercel.app/
 
 ## Deployment
 
