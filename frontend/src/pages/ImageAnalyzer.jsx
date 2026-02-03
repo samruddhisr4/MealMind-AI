@@ -14,8 +14,14 @@ const ImageAnalyzer = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const navigate = useNavigate();
 
-  const API_BASE_URL =
+  // Build API base URL robustly so deployments work whether VITE_API_URL
+  // includes the trailing '/api' or not.
+  let API_BASE_URL =
     import.meta.env.VITE_API_URL || "http://localhost:5001/api";
+  API_BASE_URL = API_BASE_URL.replace(/\/+$/, ""); // remove trailing slashes
+  if (!API_BASE_URL.endsWith("/api")) {
+    API_BASE_URL = `${API_BASE_URL}/api`;
+  }
 
   // Handle image selection
   const handleImageChange = (e) => {
