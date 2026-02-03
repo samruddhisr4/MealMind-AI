@@ -17,8 +17,13 @@ const MealPlanner = () => {
   const [error, setError] = useState("");
   const location = useLocation();
 
-  const API_BASE_URL =
+  // Build API base URL robustly
+  let API_BASE_URL =
     import.meta.env.VITE_API_URL || "http://localhost:5001/api";
+  API_BASE_URL = API_BASE_URL.replace(/\/+$/, ""); // remove trailing slashes
+  if (!API_BASE_URL.endsWith("/api")) {
+    API_BASE_URL = `${API_BASE_URL}/api`;
+  }
 
   // Initialize with suggested ingredients from ImageAnalyzer if available
   useEffect(() => {
